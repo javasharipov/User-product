@@ -159,8 +159,6 @@ main {
 	transform: scale(1.05);
 }
 
-/* loading item */
-
 @keyframes skeleton-loading {
 	0% {
 		background-position: -200px 0;
@@ -225,4 +223,16 @@ main {
 	height: 35px;
 	margin-top: 10px;
 	border-radius: 5px;
+}
+
+/* button see more */
+
+.btn {
+	padding: 14px 30px;
+	background-color: #1f2937;
+	border-radius: 10px;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
 }
